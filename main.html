@@ -1,134 +1,9 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apple Varieties - Grocery Store</title>
-  <link rel="stylesheet" href="styles.css">
-	<style>
-		* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body and Layout */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.product-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 70%;
-}
-
-/* Photo Container */
-.photo-container {
-  width: 40%;
-}
-
-.photo-main img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.photo-album ul {
-  list-style: none;
-  display: flex;
-  margin-top: 10px;
-}
-
-.photo-album ul li {
-  margin-right: 10px;
-}
-
-.photo-album ul li img {
-  width: 60px;
-  height: auto;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.photo-album ul li img:hover {
-  transform: scale(1.1);
-}
-
-/* Product Details */
-.product-details {
-  width: 55%;
-  padding-left: 20px;
-}
-
-h1 {
-  font-size: 2rem;
-  color: #333;
-}
-
-.price {
-  font-size: 1.5rem;
-  color: #27ae60;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.variant ul {
-  list-style: none;
-  margin-top: 20px;
-}
-
-.variant li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 5px;
-}
-
-.description h3 {
-  font-size: 1.25rem;
-  color: #333;
-  margin-top: 20px;
-}
-
-.description ul {
-  list-style: none;
-  margin-top: 10px;
-}
-
-.description li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 5px;
-}
-
-/* Add to Cart Button */
-.add-to-cart {
-  background-color: #27ae60;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease;
-}
-
-.add-to-cart:hover {
-  background-color: #2ecc71;
-}
-	</style>
+  <!-- Your head content here -->
 </head>
 <body>
-
   <div class="product-container">
     <div class="photo-container">
       <!-- Main Photo -->
@@ -166,6 +41,17 @@ h1 {
         </ul>
       </div>
 
+      <!-- Color Selection -->
+      <div class="variant">
+        <h3>SELECT A COLOR</h3>
+        <ul>
+          <li><img src="apple-green.jpg" alt="Green Apple"></li>
+          <li><img src="apple-yellow.jpg" alt="Yellow Apple"></li>
+          <li><img src="apple-orange.jpg" alt="Orange Apple"></li>
+          <li><img src="apple-red.jpg" alt="Red Apple"></li>
+        </ul>
+      </div>
+
       <!-- Benefits -->
       <div class="description">
         <h3>BENEFITS</h3>
@@ -181,6 +67,5 @@ h1 {
       <button class="add-to-cart">ADD TO CART</button>
     </div>
   </div>
-
 </body>
 </html>
